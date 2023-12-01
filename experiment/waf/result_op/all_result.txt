@@ -3,11 +3,11 @@
 Data write count: 0
 Node write count: 0
 Meta write count: 0
-Data write count: 7459030
-Node write count: 1988331
-Meta write count: 2523672
+Data write count: 5585335
+Node write count: 2079759
+Meta write count: 2601207
 Try to move 0 blocks (BG: 0)
-Try to move 13409508 blocks (BG: 0)
+Try to move 21677563 blocks (BG: 0)
 
 ./result/fileserver_f2fs_op28.txt:
 Data write count: 0
@@ -43,9 +43,9 @@ Try to move 670803 blocks (BG: 0)
 Data write count: 0
 Node write count: 0
 Meta write count: 0
-Data write count: 11580412
-Node write count: 1953429
-Meta write count: 2255654
+Data write count: 11284475
+Node write count: 1839294
+Meta write count: 2145884
 Try to move 0 blocks (BG: 0)
-Try to move 2376764 blocks (BG: 0)
+Try to move 2278218 blocks (BG: 0)
 
