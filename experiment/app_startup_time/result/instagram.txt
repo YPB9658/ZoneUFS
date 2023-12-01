@@ -1,0 +1,6 @@
+12-01 11:15:14.676   563   584 I ActivityTaskManager: Displayed com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity: +1s762ms
+12-01 11:15:17.333   563  3346 W InputManager-JNI: Input channel object 'ba21856 com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:15:28.126   563   584 I ActivityTaskManager: Displayed com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity: +2s343ms
+12-01 11:15:30.986   563   915 W InputManager-JNI: Input channel object '8d4cc39 com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:15:34.150   563   584 I ActivityTaskManager: Displayed com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity: +2s319ms
+12-01 11:15:38.320   563   577 W InputManager-JNI: Input channel object '96b676e com.instagram.android/com.instagram.nux.activity.BloksSignedOutFragmentActivity (client)' was disposed without first being removed with the input manager!

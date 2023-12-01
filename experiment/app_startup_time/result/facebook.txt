@@ -1,0 +1,11 @@
+12-01 10:16:01.604   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +1s34ms
+12-01 10:19:49.090   559   575 W InputManager-JNI: Input channel object '2ca51c6 com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity (client)' was disposed without first being removed with the input manager!
+12-01 10:21:06.399   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +1s422ms
+12-01 10:21:57.216   559   575 W InputManager-JNI: Input channel object '68d3fb com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity (client)' was disposed without first being removed with the input manager!
+12-01 10:22:03.152   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +557ms
+12-01 10:28:16.627   559  1024 W InputManager-JNI: Input channel object '3f9969e com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity (client)' was disposed without first being removed with the input manager!
+12-01 10:28:22.208   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +580ms
+12-01 10:28:49.928   559   574 W InputManager-JNI: Input channel object '790cbed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity (client)' was disposed without first being removed with the input manager!
+12-01 10:29:06.347   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +588ms
+12-01 10:50:25.967   559  3851 W InputManager-JNI: Input channel object 'df65570 com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:02:21.898   559   577 I ActivityTaskManager: Displayed com.facebook.katana/com.facebook.account.login.activity.SimpleLoginActivity: +1s387ms

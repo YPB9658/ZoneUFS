@@ -1,0 +1,5 @@
+12-01 10:01:00.623   559   577 I ActivityTaskManager: Displayed org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp: +1s103ms
+12-01 10:13:25.361   559  1020 W InputManager-JNI: Input channel object '6b6531f org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp (client)' was disposed without first being removed with the input manager!
+12-01 10:50:31.376   559   577 I ActivityTaskManager: Displayed org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp: +995ms
+12-01 10:50:44.976   559   828 W InputManager-JNI: Input channel object '9c05d6d org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp (client)' was disposed without first being removed with the input manager!
+12-01 10:50:47.437   559   577 I ActivityTaskManager: Displayed org.mozilla.firefox_beta/org.mozilla.gecko.BrowserApp: +968ms

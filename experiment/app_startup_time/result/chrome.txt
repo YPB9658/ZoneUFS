@@ -1,0 +1,12 @@
+12-01 11:12:02.464   563   584 I ActivityTaskManager: Displayed com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity: +1s143ms
+12-01 11:12:04.776   563  1447 W InputManager-JNI: Input channel object 'a6da4be com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:04.794   563   904 W InputManager-JNI: Input channel object '864101a com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:08.922   563   584 I ActivityTaskManager: Displayed com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity: +883ms
+12-01 11:12:11.359   563   893 W InputManager-JNI: Input channel object 'b34969c com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:11.410   563   625 W InputManager-JNI: Input channel object 'ee770f com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:13.060   563   584 I ActivityTaskManager: Displayed com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity: +853ms
+12-01 11:12:15.043   563  3547 W InputManager-JNI: Input channel object '4ce652d com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:17.071   563  2599 W InputManager-JNI: Input channel object 'd073f1 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:19.210   563   584 I ActivityTaskManager: Displayed com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity: +835ms
+12-01 11:12:23.247   563  3707 W InputManager-JNI: Input channel object 'b530c6f com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:12:23.250   563  2774 W InputManager-JNI: Input channel object '45d9b5a com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity (client)' was disposed without first being removed with the input manager!

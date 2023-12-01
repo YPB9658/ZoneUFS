@@ -1,0 +1,6 @@
+12-01 11:13:06.487   563   584 I ActivityTaskManager: Displayed com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity: +1s478ms
+12-01 11:13:15.544   563   625 W InputManager-JNI: Input channel object 'd65eec1 com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:13:18.026   563   584 I ActivityTaskManager: Displayed com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity: +1s295ms
+12-01 11:13:20.751   563   891 W InputManager-JNI: Input channel object 'e09a96c com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity (client)' was disposed without first being removed with the input manager!
+12-01 11:13:23.345   563   584 I ActivityTaskManager: Displayed com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity: +1s287ms
+12-01 11:13:26.472   563   893 W InputManager-JNI: Input channel object '1f3c016 com.google.earth/com.google.android.apps.earth.flutter.EarthFlutterActivity (client)' was disposed without first being removed with the input manager!
