@@ -1,0 +1,51 @@
+
+./result/fileserver_f2fs_op07.txt:
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+Data write count: 7459030
+Node write count: 1988331
+Meta write count: 2523672
+Try to move 0 blocks (BG: 0)
+Try to move 13409508 blocks (BG: 0)
+
+./result/fileserver_f2fs_op28.txt:
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+Data write count: 9113502
+Node write count: 1884421
+Meta write count: 2410755
+Try to move 0 blocks (BG: 0)
+Try to move 6978708 blocks (BG: 0)
+
+./result/fileserver_f2fs_op40.txt:
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+Data write count: 11707887
+Node write count: 1875001
+Meta write count: 2177954
+Try to move 0 blocks (BG: 0)
+Try to move 1930939 blocks (BG: 0)
+
+./result/fileserver_f2fs_op50.txt:
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+Data write count: 14460808
+Node write count: 2072526
+Meta write count: 2234786
+Try to move 0 blocks (BG: 0)
+Try to move 670803 blocks (BG: 0)
+
+./result/fileserver_f2fs_zufs.txt:
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+Data write count: 11580412
+Node write count: 1953429
+Meta write count: 2255654
+Try to move 0 blocks (BG: 0)
+Try to move 2376764 blocks (BG: 0)
+

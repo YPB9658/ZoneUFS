@@ -1,0 +1,250 @@
+
+=====[ partition info(nvme0n2). #0, RW]=====
+[SB: 1] [CP: 2] [SIT: 2] [NAT: 44] [SSA: 19] [MAIN: 9660(OverProv:528 Resv:48)]
+
+Utilization: 0% (2 valid blocks)
+  - Node: 1 (Inode: 1, Other: 0)
+  - Data: 1
+  - Inline_xattr Inode: 0
+  - Inline_data Inode: 0
+  - Inline_dentry Inode: 0
+  - Orphan Inode: 0
+
+Main area: 9660 segs, 9660 secs 9660 zones
+  - COLD  data: 0, 0, 0
+  - WARM  data: 1, 1, 1
+  - HOT   data: 9656, 9656, 9656
+  - Dir   dnode: 9659, 9659, 9659
+  - File   dnode: 9658, 9658, 9658
+  - Indir nodes: 9657, 9657, 9657
+
+  - Valid: 6
+  - Dirty: 0
+  - Prefree: 0
+  - Free: 9654 (9654)
+
+CP calls: 0 (BG: 0)
+GC calls: 0 (BG: 0)
+  - data segments : 0 (0)
+  - node segments : 0 (0)
+Try to move 0 blocks (BG: 0)
+  - data blocks : 0 (0)
+  - node blocks : 0 (0)
+
+Extent Cache:
+  - Hit Count: L1-1:0 L1-2:0 L2:0
+  - Hit Ratio: 0% (0 / 0)
+  - Inner Struct Count: tree: 0(0), node: 0
+
+Balancing F2FS Async:
+  - inmem:    0, wb_cp_data:    0, wb_data:    0
+  - nodes:    0 in    1
+  - dents:    0 in dirs:   0 (   0)
+  - datas:    0 in files:   0
+  - meta:    0 in  192
+  - imeta:    0
+  - NATs:         0/        1
+  - SITs:         0/     9660
+  - free_nids:      3636, alloc_nids:         0
+
+Distribution of User Blocks: [ valid | invalid | free ]
+  [|-|-------------------------------------------------]
+
+IPU: 0 blocks
+SSR: 0 blocks in 0 segments
+LFS: 0 blocks in 0 segments
+
+BDF: 99, avg. vblocks: 0
+
+Memory: 3095 KB
+  - static: 2237 KB
+  - cached: 85 KB
+  - paged : 772 KB
+Main blkaddr: 34816
+Current benefit sections: 0
+Checkpoint try count :0
+  - CP   Calls : 0
+  - ToTAL W: 0
+  - Dent Writes: 0
+  - Node Writes: 0
+  - NAT  Writes: 0
+  - SIT  Writes: 0
+  - CP   Writes: 0
+
+Background GC: OFF
+Section SSR  :  ON
+IOTL         :  ON
+
+Hot data section LFS allocation: 0
+Hot data section SSR allocation: 0
+Warm data section LFS allocation: 0
+Warm data section SSR allocation: 0
+Cold data section LFS allocation: 0
+Cold data section SSR allocation: 0
+Hot node section LFS allocation: 0
+Hot node section SSR allocation: 0
+Warm node section LFS allocation: 0
+Warm node section SSR allocation: 0
+Cold node section LFS allocation: 0
+Cold node section SSR allocation: 0
+Total LFS allocation: 0
+Total SSR allocation: 0
+
+Hot data LFS block write: 0
+Hot data SSR block write: 0
+Warm data LFS block write: 0
+Warm data SSR block write: 0
+Cold data LFS block write: 0
+Cold data SSR block write: 0
+Hot node LFS block write: 0
+Hot node SSR block write: 0
+Warm node LFS block write: 0
+Warm node SSR block write: 0
+Cold node LFS block write: 0
+Cold node SSR block write: 0
+Total LFS block write: 0
+Total SSR block write: 0
+
+Data write count: 0
+Node write count: 0
+Meta write count: 0
+
+Host I/O: 0
+Orig_cpbk 0
+IM_cached_pages: 0
+IM_all_cached_pages: 0
+IM - data: 0 - 0
+DEV R/W: 0 
+DEV CPBK: 0
+GC time breakdown
+DATA - 0 (tick)
+phase0: 0 (tick)
+phase1: 0 (tick)
+phase2: 0 (tick)
+phase3: 0 (tick)
+phase4: 0 (tick)
+
+=====[ partition info(nvme0n2). #0, RW]=====
+[SB: 1] [CP: 2] [SIT: 2] [NAT: 44] [SSA: 19] [MAIN: 9660(OverProv:528 Resv:48)]
+
+Utilization: 52% (2464365 valid blocks)
+  - Node: 72504 (Inode: 72504, Other: 0)
+  - Data: 2391861
+  - Inline_xattr Inode: 0
+  - Inline_data Inode: 104
+  - Inline_dentry Inode: 2924
+  - Orphan Inode: 0
+
+Main area: 9660 segs, 9660 secs 9660 zones
+  - COLD  data: 3977, 3977, 3977
+  - WARM  data: 4035, 4035, 4035
+  - HOT   data: 9656, 9656, 9656
+  - Dir   dnode: 8609, 8609, 8609
+  - File   dnode: 9207, 9207, 9207
+  - Indir nodes: 9657, 9657, 9657
+
+  - Valid: 368
+  - Dirty: 9241
+  - Prefree: 0
+  - Free: 51 (51)
+
+CP calls: 36750 (BG: 0)
+GC calls: 24964 (BG: 0)
+  - data segments : 20815 (0)
+  - node segments : 4149 (0)
+Try to move 1930939 blocks (BG: 0)
+  - data blocks : 1557263 (0)
+  - node blocks : 373676 (0)
+
+Extent Cache:
+  - Hit Count: L1-1:681111 L1-2:372 L2:3576
+  - Hit Ratio: 31% (685059 / 2207284)
+  - Inner Struct Count: tree: 36823(0), node: 3865
+
+Balancing F2FS Async:
+  - inmem:    0, wb_cp_data:    0, wb_data:    0
+  - nodes:    1 in 43576
+  - dents:    0 in dirs:   0 ( 682)
+  - datas: 24460 in files:   0
+  - meta:    0 in 10097
+  - imeta:    0
+  - NATs:         0/    31711
+  - SITs:         1/     9660
+  - free_nids:      3629, alloc_nids:         0
+
+Distribution of User Blocks: [ valid | invalid | free ]
+  [--------------------------|------------------------|]
+
+IPU: 0 blocks
+SSR: 0 blocks in 0 segments
+LFS: 17835258 blocks in 34833 segments
+
+BDF: 20, avg. vblocks: 245
+
+Memory: 220836 KB
+  - static: 2237 KB
+  - cached: 3906 KB
+  - paged : 214692 KB
+Main blkaddr: 34816
+Current benefit sections: 0
+Checkpoint try count :15203085
+  - CP   Calls : 36750
+  - ToTAL W: 3866496
+  - Dent Writes: 0
+  - Node Writes: 1768590
+  - NAT  Writes: 1279148
+  - SIT  Writes: 745258
+  - CP   Writes: 73500
+
+Background GC: OFF
+Section SSR  :  ON
+IOTL         :  ON
+
+Hot data section LFS allocation: 0
+Hot data section SSR allocation: 0
+Warm data section LFS allocation: 22867
+Warm data section SSR allocation: 0
+Cold data section LFS allocation: 3041
+Cold data section SSR allocation: 0
+Hot node section LFS allocation: 705
+Hot node section SSR allocation: 0
+Warm node section LFS allocation: 3687
+Warm node section SSR allocation: 0
+Cold node section LFS allocation: 0
+Cold node section SSR allocation: 0
+Total LFS allocation: 30300
+Total SSR allocation: 0
+
+Hot data LFS block write: 1
+Hot data SSR block write: 0
+Warm data LFS block write: 11707886
+Warm data SSR block write: 0
+Cold data LFS block write: 1557263
+Cold data SSR block write: 0
+Hot node LFS block write: 360796
+Hot node SSR block write: 0
+Warm node LFS block write: 1887881
+Warm node SSR block write: 0
+Cold node LFS block write: 0
+Cold node SSR block write: 0
+Total LFS block write: 15513827
+Total SSR block write: 0
+
+Data write count: 11707887
+Node write count: 1875001
+Meta write count: 2177954
+
+Host I/O: 278531
+Orig_cpbk 16472
+IM_cached_pages: 279287
+IM_all_cached_pages: 272651
+IM - data: 23099 - 1278732
+DEV R/W: 519045 
+DEV CPBK: 730468
+GC time breakdown
+DATA - 498468221693 (tick)
+phase0: 2037624458 (tick)
+phase1: 2185845624 (tick)
+phase2: 7840246809 (tick)
+phase3: 8877605712 (tick)
+phase4: 3144198185 (tick)
