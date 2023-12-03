@@ -33,7 +33,7 @@ Try to move 0 blocks (BG: 0)
 
 Extent Cache:
   - Hit Count: L1-1:0 L1-2:0 L2:0
-  - Hit Ratio: 0% (0 / 62432)
+  - Hit Ratio: 0% (0 / 65580)
   - Inner Struct Count: tree: 100(0), node: 0
 
 Balancing F2FS Async:
