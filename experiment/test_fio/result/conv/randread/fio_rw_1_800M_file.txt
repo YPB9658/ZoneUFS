@@ -1,0 +1,30 @@
+file1: (g=0): rw=randread, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=8
+fio-3.36-19-gbdf99
+Starting 1 process
+file1: Laying out IO file (1 file / 800MiB)
+
+file1: (groupid=0, jobs=1): err= 0: pid=4754: Sun Dec  3 17:49:45 2023
+  read: IOPS=231k, BW=3604MiB/s (3779MB/s)(800MiB/222msec)
+    slat (nsec): min=1323, max=197011, avg=1935.59, stdev=2438.16
+    clat (usec): min=16, max=669, avg=32.49, stdev=20.17
+     lat (usec): min=17, max=683, avg=34.43, stdev=21.99
+    clat percentiles (usec):
+     |  1.00th=[   29],  5.00th=[   30], 10.00th=[   30], 20.00th=[   31],
+     | 30.00th=[   31], 40.00th=[   31], 50.00th=[   31], 60.00th=[   32],
+     | 70.00th=[   32], 80.00th=[   32], 90.00th=[   33], 95.00th=[   34],
+     | 99.00th=[   67], 99.50th=[   76], 99.90th=[  396], 99.95th=[  478],
+     | 99.99th=[  545]
+  lat (usec)   : 20=0.11%, 50=98.32%, 100=1.27%, 250=0.02%, 500=0.22%
+  lat (usec)   : 750=0.05%
+  cpu          : usr=5.43%, sys=61.54%, ctx=12658, majf=0, minf=41
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=100.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.1%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=51200,0,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=8
+
+Run status group 0 (all jobs):
+   READ: bw=3604MiB/s (3779MB/s), 3604MiB/s-3604MiB/s (3779MB/s-3779MB/s), io=800MiB (839MB), run=222-222msec
+
+Disk stats (read/write):
+  sdb: ios=14430/0, sectors=461760/0, merge=0/0, ticks=388/0, in_queue=388, util=41.86%

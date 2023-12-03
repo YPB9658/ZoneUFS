@@ -1,0 +1,15 @@
+
+[global]
+name=file-randwrite
+directory=/mnt/conv/
+rw=randwrite
+bs=16k
+direct=1
+runtime=60
+numjobs=1
+
+[file79]
+size=8M
+ioengine=libaio
+iodepth=8
+
