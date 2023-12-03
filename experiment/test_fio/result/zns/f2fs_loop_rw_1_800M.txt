@@ -2,8 +2,8 @@
 =====[ partition info(nvme0n2). #0, RW]=====
 [SB: 1] [CP: 2] [SIT: 2] [NAT: 4] [SSA: 1] [MAIN: 502(OverProv:68 Resv:39)]
 
-Utilization: 92% (205102 valid blocks)
-  - Node: 301 (Inode: 101, Other: 200)
+Utilization: 92% (205005 valid blocks)
+  - Node: 204 (Inode: 2, Other: 202)
   - Data: 204801
   - Inline_xattr Inode: 0
   - Inline_data Inode: 0
@@ -33,19 +33,19 @@ Try to move 0 blocks (BG: 0)
 
 Extent Cache:
   - Hit Count: L1-1:0 L1-2:0 L2:0
-  - Hit Ratio: 0% (0 / 59940)
-  - Inner Struct Count: tree: 100(0), node: 0
+  - Hit Ratio: 0% (0 / 1536000)
+  - Inner Struct Count: tree: 1(0), node: 0
 
 Balancing F2FS Async:
   - inmem:    0, wb_cp_data:    0, wb_data:    0
-  - nodes:  300 in  301
-  - dents:    1 in dirs:   1 ( 101)
+  - nodes:  203 in  204
+  - dents:    1 in dirs:   1 (   2)
   - datas:    0 in files:   0
   - meta:  400 in  426
-  - imeta:  100
-  - NATs:       300/      301
+  - imeta:    1
+  - NATs:       203/      204
   - SITs:       401/      502
-  - free_nids:      3336, alloc_nids:         0
+  - free_nids:      3433, alloc_nids:         0
 
 Distribution of User Blocks: [ valid | invalid | free ]
   [----------------------------------------------|-|---]
@@ -56,13 +56,13 @@ LFS: 204800 blocks in 400 segments
 
 BDF: 99, avg. vblocks: 0
 
-Memory: 3162 KB
+Memory: 2763 KB
   - static: 148 KB
-  - cached: 106 KB
-  - paged : 2908 KB
+  - cached: 94 KB
+  - paged : 2520 KB
 Main blkaddr: 5120
 Current benefit sections: 0
-Checkpoint try count :400
+Checkpoint try count :203
   - CP   Calls : 0
   - ToTAL W: 0
   - Dent Writes: 0
@@ -77,7 +77,7 @@ IOTL         :  ON
 
 Hot data section LFS allocation: 0
 Hot data section SSR allocation: 0
-Warm data section LFS allocation: 400
+Warm data section LFS allocation: 0
 Warm data section SSR allocation: 0
 Cold data section LFS allocation: 0
 Cold data section SSR allocation: 0
@@ -87,12 +87,12 @@ Warm node section LFS allocation: 0
 Warm node section SSR allocation: 0
 Cold node section LFS allocation: 0
 Cold node section SSR allocation: 0
-Total LFS allocation: 400
+Total LFS allocation: 0
 Total SSR allocation: 0
 
 Hot data LFS block write: 0
 Hot data SSR block write: 0
-Warm data LFS block write: 204800
+Warm data LFS block write: 0
 Warm data SSR block write: 0
 Cold data LFS block write: 0
 Cold data SSR block write: 0
@@ -102,10 +102,10 @@ Warm node LFS block write: 0
 Warm node SSR block write: 0
 Cold node LFS block write: 0
 Cold node SSR block write: 0
-Total LFS block write: 204800
+Total LFS block write: 0
 Total SSR block write: 0
 
-Data write count: 204800
+Data write count: 0
 Node write count: 0
 Meta write count: 0
 
