@@ -1,8 +1,8 @@
 
 =====[ partition info(sdb). #0, RW]=====
-[SB: 1] [CP: 2] [SIT: 2] [NAT: 4] [SSA: 1] [MAIN: 502(OverProv:68 Resv:39)]
+[SB: 1] [CP: 2] [SIT: 2] [NAT: 36] [SSA: 16] [MAIN: 8135(OverProv:260 Resv:135)]
 
-Utilization: 92% (205005 valid blocks)
+Utilization: 5% (205005 valid blocks)
   - Node: 204 (Inode: 2, Other: 202)
   - Data: 204801
   - Inline_xattr Inode: 0
@@ -10,18 +10,18 @@ Utilization: 92% (205005 valid blocks)
   - Inline_dentry Inode: 0
   - Orphan Inode: 0
 
-Main area: 502 segs, 502 secs 502 zones
+Main area: 8135 segs, 8135 secs 8135 zones
   - COLD  data: 0, 0, 0
   - WARM  data: 401, 401, 401
-  - HOT   data: 498, 498, 498
-  - Dir   dnode: 501, 501, 501
-  - File   dnode: 500, 500, 500
-  - Indir nodes: 499, 499, 499
+  - HOT   data: 8131, 8131, 8131
+  - Dir   dnode: 8134, 8134, 8134
+  - File   dnode: 8133, 8133, 8133
+  - Indir nodes: 8132, 8132, 8132
 
   - Valid: 406
   - Dirty: 0
   - Prefree: 0
-  - Free: 96 (96)
+  - Free: 7729 (7729)
 
 CP calls: 0 (BG: 0)
 GC calls: 0 (BG: 0)
@@ -41,14 +41,14 @@ Balancing F2FS Async:
   - nodes:    1 in  204
   - dents:    1 in dirs:   1 (   1)
   - datas:    0 in files:   0
-  - meta:  400 in  426
+  - meta:  400 in  564
   - imeta:    0
   - NATs:       203/      204
-  - SITs:       402/      502
+  - SITs:       402/     8135
   - free_nids:      3433, alloc_nids:         0
 
 Distribution of User Blocks: [ valid | invalid | free ]
-  [----------------------------------------------|-|---]
+  [--|-|-----------------------------------------------]
 
 IPU: 0 blocks
 SSR: 0 blocks in 0 segments
@@ -56,11 +56,11 @@ LFS: 205002 blocks in 400 segments
 
 BDF: 99, avg. vblocks: 0
 
-Memory: 2763 KB
-  - static: 148 KB
-  - cached: 94 KB
-  - paged : 2520 KB
-Main blkaddr: 5120
+Memory: 5057 KB
+  - static: 1890 KB
+  - cached: 95 KB
+  - paged : 3072 KB
+Main blkaddr: 29184
 Current benefit sections: 0
 Checkpoint try count :205004
   - CP   Calls : 0
@@ -71,9 +71,6 @@ Checkpoint try count :205004
   - SIT  Writes: 0
   - CP   Writes: 0
 
-Background GC: OFF
-Section SSR  :  ON
-IOTL         :  ON
 
 Hot data section LFS allocation: 0
 Hot data section SSR allocation: 0
@@ -116,10 +113,9 @@ IM_all_cached_pages: 0
 IM - data: 0 - 0
 DEV R/W: 0 
 DEV CPBK: 0
+
 GC time breakdown
 DATA - 0 (tick)
-phase0: 0 (tick)
-phase1: 0 (tick)
-phase2: 0 (tick)
-phase3: 0 (tick)
-phase4: 0 (tick)
+init phase: 0 (tick)
+IZC phase: 0 (tick)
+checkpoint: 0 (tick)

@@ -3,19 +3,19 @@ fio-3.36-19-gbdf99
 Starting 1 process
 file1: Laying out IO file (1 file / 800MiB)
 
-file1: (groupid=0, jobs=1): err= 0: pid=4325: Sun Dec  3 17:49:28 2023
-  write: IOPS=172k, BW=2694MiB/s (2824MB/s)(800MiB/297msec); 0 zone resets
-    slat (nsec): min=1828, max=44885, avg=2590.35, stdev=844.82
-    clat (usec): min=20, max=211, avg=43.63, stdev= 8.59
-     lat (usec): min=23, max=213, avg=46.22, stdev= 8.74
+file1: (groupid=0, jobs=1): err= 0: pid=5453: Mon Dec  4 21:50:43 2023
+  write: IOPS=168k, BW=2632MiB/s (2759MB/s)(800MiB/304msec); 0 zone resets
+    slat (nsec): min=1789, max=72182, avg=2429.86, stdev=1169.48
+    clat (usec): min=19, max=313, avg=44.78, stdev=12.66
+     lat (usec): min=23, max=322, avg=47.21, stdev=13.31
     clat percentiles (usec):
-     |  1.00th=[   36],  5.00th=[   37], 10.00th=[   38], 20.00th=[   38],
-     | 30.00th=[   39], 40.00th=[   39], 50.00th=[   40], 60.00th=[   41],
-     | 70.00th=[   50], 80.00th=[   51], 90.00th=[   53], 95.00th=[   58],
-     | 99.00th=[   71], 99.50th=[   82], 99.90th=[  101], 99.95th=[  111],
-     | 99.99th=[  200]
-  lat (usec)   : 50=73.67%, 100=26.20%, 250=0.13%
-  cpu          : usr=5.41%, sys=54.05%, ctx=12511, majf=0, minf=9
+     |  1.00th=[   41],  5.00th=[   41], 10.00th=[   42], 20.00th=[   42],
+     | 30.00th=[   43], 40.00th=[   43], 50.00th=[   43], 60.00th=[   44],
+     | 70.00th=[   44], 80.00th=[   45], 90.00th=[   46], 95.00th=[   51],
+     | 99.00th=[   80], 99.50th=[  186], 99.90th=[  200], 99.95th=[  208],
+     | 99.99th=[  285]
+  lat (usec)   : 20=0.01%, 50=94.97%, 100=4.30%, 250=0.72%, 500=0.01%
+  cpu          : usr=2.64%, sys=51.49%, ctx=12696, majf=0, minf=11
   IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=100.0%, 16=0.0%, 32=0.0%, >=64=0.0%
      submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
      complete  : 0=0.0%, 4=100.0%, 8=0.1%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
@@ -23,7 +23,7 @@ file1: (groupid=0, jobs=1): err= 0: pid=4325: Sun Dec  3 17:49:28 2023
      latency   : target=0, window=0, percentile=100.00%, depth=8
 
 Run status group 0 (all jobs):
-  WRITE: bw=2694MiB/s (2824MB/s), 2694MiB/s-2694MiB/s (2824MB/s-2824MB/s), io=800MiB (839MB), run=297-297msec
+  WRITE: bw=2632MiB/s (2759MB/s), 2632MiB/s-2632MiB/s (2759MB/s-2759MB/s), io=800MiB (839MB), run=304-304msec
 
 Disk stats (read/write):
-  sdb: ios=0/26579, sectors=0/850528, merge=0/0, ticks=0/828, in_queue=828, util=59.68%
+  sdb: ios=0/25138, sectors=0/804416, merge=0/0, ticks=0/856, in_queue=856, util=59.44%

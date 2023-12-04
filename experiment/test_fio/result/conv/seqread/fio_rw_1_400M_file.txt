@@ -3,20 +3,19 @@ fio-3.36-19-gbdf99
 Starting 1 process
 file1: Laying out IO file (1 file / 400MiB)
 
-file1: (groupid=0, jobs=1): err= 0: pid=4454: Sun Dec  3 17:49:32 2023
-  write: IOPS=152k, BW=2381MiB/s (2497MB/s)(400MiB/168msec); 0 zone resets
-    slat (nsec): min=1927, max=131474, avg=2802.11, stdev=2650.96
-    clat (usec): min=21, max=878, avg=49.31, stdev=49.78
-     lat (usec): min=28, max=888, avg=52.11, stdev=51.40
+file1: (groupid=0, jobs=1): err= 0: pid=5584: Mon Dec  4 21:50:47 2023
+  write: IOPS=162k, BW=2532MiB/s (2655MB/s)(400MiB/158msec); 0 zone resets
+    slat (nsec): min=1781, max=130386, avg=2627.55, stdev=1702.57
+    clat (usec): min=20, max=516, avg=46.33, stdev=18.17
+     lat (usec): min=23, max=526, avg=48.96, stdev=19.20
     clat percentiles (usec):
-     |  1.00th=[   41],  5.00th=[   41], 10.00th=[   42], 20.00th=[   42],
-     | 30.00th=[   42], 40.00th=[   43], 50.00th=[   43], 60.00th=[   43],
-     | 70.00th=[   43], 80.00th=[   44], 90.00th=[   45], 95.00th=[   46],
-     | 99.00th=[  330], 99.50th=[  482], 99.90th=[  619], 99.95th=[  660],
-     | 99.99th=[  857]
-  lat (usec)   : 50=96.31%, 100=0.91%, 250=1.56%, 500=0.77%, 750=0.42%
-  lat (usec)   : 1000=0.03%
-  cpu          : usr=2.40%, sys=47.90%, ctx=6330, majf=0, minf=9
+     |  1.00th=[   41],  5.00th=[   42], 10.00th=[   42], 20.00th=[   43],
+     | 30.00th=[   43], 40.00th=[   44], 50.00th=[   44], 60.00th=[   44],
+     | 70.00th=[   44], 80.00th=[   45], 90.00th=[   46], 95.00th=[   55],
+     | 99.00th=[  125], 99.50th=[  194], 99.90th=[  212], 99.95th=[  227],
+     | 99.99th=[  506]
+  lat (usec)   : 50=94.36%, 100=4.09%, 250=1.51%, 500=0.02%, 750=0.01%
+  cpu          : usr=12.74%, sys=40.76%, ctx=6356, majf=0, minf=10
   IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=100.0%, 16=0.0%, 32=0.0%, >=64=0.0%
      submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
      complete  : 0=0.0%, 4=100.0%, 8=0.1%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
@@ -24,7 +23,7 @@ file1: (groupid=0, jobs=1): err= 0: pid=4454: Sun Dec  3 17:49:32 2023
      latency   : target=0, window=0, percentile=100.00%, depth=8
 
 Run status group 0 (all jobs):
-  WRITE: bw=2381MiB/s (2497MB/s), 2381MiB/s-2381MiB/s (2497MB/s-2497MB/s), io=400MiB (419MB), run=168-168msec
+  WRITE: bw=2532MiB/s (2655MB/s), 2532MiB/s-2532MiB/s (2655MB/s-2655MB/s), io=400MiB (419MB), run=158-158msec
 
 Disk stats (read/write):
-  sdb: ios=0/22242, sectors=0/711744, merge=0/0, ticks=0/804, in_queue=804, util=59.44%
+  sdb: ios=0/24070, sectors=0/770240, merge=0/0, ticks=0/828, in_queue=824, util=59.44%
