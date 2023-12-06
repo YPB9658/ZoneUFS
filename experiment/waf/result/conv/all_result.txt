@@ -1,55 +1,109 @@
 
 ../result/conv/fileserver_f2fs_10.f.txt:
-Data write count: 11105
-Node write count: 11689
-Meta write count: 3283
-Try to move 16362 blocks (BG: 8184)
+Data write count: 19911
+Node write count: 6656
+Meta write count: 0
+Try to move 0 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_20.f.txt:
-Data write count: 48716
-Node write count: 24712
-Meta write count: 33051
-Try to move 84002 blocks (BG: 34062)
+Data write count: 137546
+Node write count: 7168
+Meta write count: 0
+Try to move 0 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_30.f.txt:
-Data write count: 1358669
-Node write count: 58273
-Meta write count: 23884
-Try to move 99213 blocks (BG: 58572)
+Data write count: 1052840
+Node write count: 12288
+Meta write count: 512
+Try to move 0 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_40.f.txt:
-Data write count: 3473705
-Node write count: 45124
-Meta write count: 14649
-Try to move 356583 blocks (BG: 178273)
+Data write count: 23745160
+Node write count: 625868
+Meta write count: 65617
+Try to move 162 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_50.f.txt:
-Data write count: 0
-Node write count: 0
-Meta write count: 74857
-Try to move 1577601 blocks (BG: 773257)
+Data write count: 38726966
+Node write count: 11561946
+Meta write count: 889991
+Try to move 21391 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_60.f.txt:
-Data write count: 423
-Node write count: 0
-Meta write count: 768
-Try to move 0 blocks (BG: 0)
+Data write count: 50045096
+Node write count: 12120913
+Meta write count: 1405906
+Try to move 1406991 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_70.f.txt:
-Data write count: 215
-Node write count: 0
-Meta write count: 768
-Try to move 0 blocks (BG: 0)
+Data write count: 49390068
+Node write count: 12419800
+Meta write count: 1489006
+Try to move 3225091 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_80.f.txt:
-Data write count: 560
-Node write count: 0
-Meta write count: 768
-Try to move 0 blocks (BG: 0)
+Data write count: 55130769
+Node write count: 11701321
+Meta write count: 1826556
+Try to move 10501417 blocks (BG: 0)
 
 ../result/conv/fileserver_f2fs_90.f.txt:
-Data write count: 8245
-Node write count: 0
-Meta write count: 768
-Try to move 0 blocks (BG: 0)
+Data write count: 53071967
+Node write count: 11509334
+Meta write count: 1925808
+Try to move 15770180 blocks (BG: 0)
+
+../result/conv/fileserver_f2fs_bg_10.f.txt:
+Data write count: 395856
+Node write count: 4294947033
+Meta write count: 48244
+Try to move 123358 blocks (BG: 46676)
+
+../result/conv/fileserver_f2fs_bg_20.f.txt:
+Data write count: 690529
+Node write count: 25861
+Meta write count: 48917
+Try to move 46585 blocks (BG: 13452)
+
+../result/conv/fileserver_f2fs_bg_30.f.txt:
+Data write count: 1003490
+Node write count: 44068
+Meta write count: 56124
+Try to move 94949 blocks (BG: 26633)
+
+../result/conv/fileserver_f2fs_bg_40.f.txt:
+Data write count: 689563
+Node write count: 75189
+Meta write count: 71191
+Try to move 257320 blocks (BG: 62242)
+
+../result/conv/fileserver_f2fs_bg_50.f.txt:
+Data write count: 766095
+Node write count: 4294964806
+Meta write count: 897600
+Try to move 629338 blocks (BG: 158754)
+
+../result/conv/fileserver_f2fs_bg_60.f.txt:
+Data write count: 759705
+Node write count: 65989
+Meta write count: 1416792
+Try to move 2310906 blocks (BG: 221280)
+
+../result/conv/fileserver_f2fs_bg_70.f.txt:
+Data write count: 880492
+Node write count: 52235
+Meta write count: 1504650
+Try to move 4500053 blocks (BG: 318996)
+
+../result/conv/fileserver_f2fs_bg_80.f.txt:
+Data write count: 987515
+Node write count: 111844
+Meta write count: 1852006
+Try to move 12053380 blocks (BG: 375518)
+
+../result/conv/fileserver_f2fs_bg_90.f.txt:
+Data write count: 1157123
+Node write count: 124947
+Meta write count: 1962204
+Try to move 17546131 blocks (BG: 391165)
 

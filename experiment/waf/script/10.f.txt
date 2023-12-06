@@ -1,0 +1,133 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: Latency histogram enabled
+0.001: File-server Version 3.0 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.006: bigfileset populated: 12500 files, avg. dir. width = 5, avg. dir. depth = 5.9, 0 leafdirs, 1540.305MB total size
+0.006: Reusing existing bigfileset tree
+0.006: Pre-allocating files in bigfileset tree
+0.170: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+0.170: Population and pre-allocation of filesets completed
+0.170: Starting 1 filereader instances
+
+=====[ partition info(nvme0n2). #0, RW]=====
+[SB: 1] [CP: 2] [SIT: 2] [NAT: 36] [SSA: 24] [MAIN: 8112(OverProv:1106 Resv:633)]
+
+Utilization: 11% (400870 valid blocks)
+  - Node: 14658 (Inode: 14658, Other: 0)
+  - Data: 386212
+  - Inline_xattr Inode: 0
+  - Inline_data Inode: 29
+  - Inline_dentry Inode: 2752
+  - Orphan Inode: 0
+
+Main area: 8112 segs, 507 secs 507 zones
+  - COLD  data: 15, 0, 0
+  - WARM  data: 721, 45, 45
+  - HOT   data: 8048, 503, 503
+  - Dir   dnode: 8037, 502, 502
+  - File   dnode: 8003, 500, 500
+  - Indir nodes: 8064, 504, 504
+
+  - Valid: 59
+  - Dirty: 643
+  - Prefree: 0
+  - Free: 7410 (459)
+
+CP calls: 8577 (BG: 101345)
+GC calls: 20 (BG: 98974)
+  - data segments : 16 (0)
+  - node segments : 163 (71)
+Try to move 78990 blocks (BG: 31025)
+  - data blocks : 0 (0)
+  - node blocks : 0 (31025)
+
+Extent Cache:
+  - Hit Count: L1-1:22439 L1-2:79 L2:28
+  - Hit Ratio: 0% (22546 / 12017941)
+  - Inner Struct Count: tree: 11905(0), node: 5689
+
+Balancing F2FS Async:
+  - inmem:    0, wb_cp_data:    0, wb_data:    0
+  - nodes: 8053 in 14660
+  - dents:    0 in dirs:   0 (8363)
+  - datas: 71467 in files:   0
+  - meta:    0 in 19441
+  - imeta: 7066
+  - NATs:      2141/    99901
+  - SITs:       645/     8112
+  - free_nids:   3508741, alloc_nids:         0
+
+Distribution of User Blocks: [ valid | invalid | free ]
+  [----|--|--------------------------------------------]
+
+IPU: 0 blocks
+SSR: 0 blocks in 0 segments
+LFS: 438956 blocks in 856 segments
+
+BDF: 97, avg. vblocks: 7060
+
+Memory: 224923 KB
+  - static: 1884 KB
+  - cached: 86634 KB
+  - paged : 136404 KB
+Main blkaddr: 40960
+Current benefit sections: 0
+Checkpoint try count :8732684
+  - CP   Calls : 101345
+  - ToTAL W: 50724
+  - Dent Writes: 1
+  - Node Writes: 22824
+  - NAT  Writes: 10650
+  - SIT  Writes: 95
+  - CP   Writes: 17154
+
+
+Hot data section LFS allocation: 0
+Hot data section SSR allocation: 0
+Warm data section LFS allocation: 0
+Warm data section SSR allocation: 0
+Cold data section LFS allocation: 0
+Cold data section SSR allocation: 0
+Hot node section LFS allocation: 0
+Hot node section SSR allocation: 0
+Warm node section LFS allocation: 0
+Warm node section SSR allocation: 0
+Cold node section LFS allocation: 0
+Cold node section SSR allocation: 0
+Total LFS allocation: 0
+Total SSR allocation: 0
+
+Hot data LFS block write: 0
+Hot data SSR block write: 0
+Warm data LFS block write: 1
+Warm data SSR block write: 0
+Cold data LFS block write: 0
+Cold data SSR block write: 0
+Hot node LFS block write: 0
+Hot node SSR block write: 0
+Warm node LFS block write: 0
+Warm node SSR block write: 0
+Cold node LFS block write: 0
+Cold node SSR block write: 0
+Total LFS block write: 1
+Total SSR block write: 0
+
+Data write count: 1
+Node write count: 0
+Meta write count: 38331
+
+Host I/O: 7895
+Orig_cpbk 0
+IM_cached_pages: 7895
+IM_all_cached_pages: 7895
+IM - data: 0 - 0
+DEV R/W: 0 
+DEV CPBK: 0
+
+GC time breakdown
+DATA - 0 (tick)
+init phase: 3018842 (tick)
+IZC phase: 46264576 (tick)
+checkpoint: 18446744073660268198 (tick)
+1.259: Running...

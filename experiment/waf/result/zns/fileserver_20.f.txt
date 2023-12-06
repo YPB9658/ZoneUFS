@@ -1,25 +1,25 @@
 Filebench Version 1.5-alpha3
 0.000: Allocated 173MB of shared memory
-0.001: Latency histogram enabled
+0.000: Latency histogram enabled
 0.001: File-server Version 3.0 personality successfully loaded
 0.001: Populating and pre-allocating filesets
-0.009: bigfileset populated: 25000 files, avg. dir. width = 20, avg. dir. depth = 3.4, 0 leafdirs, 3115.524MB total size
-0.009: Removing bigfileset tree (if exists)
-0.009: Pre-allocating directories in bigfileset tree
-0.016: Pre-allocating files in bigfileset tree
-0.494: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
-0.494: Population and pre-allocation of filesets completed
-0.494: Starting 1 filereader instances
+0.011: bigfileset populated: 25000 files, avg. dir. width = 5, avg. dir. depth = 6.3, 0 leafdirs, 3093.822MB total size
+0.011: Removing bigfileset tree (if exists)
+0.012: Pre-allocating directories in bigfileset tree
+0.035: Pre-allocating files in bigfileset tree
+0.854: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+0.854: Population and pre-allocation of filesets completed
+0.855: Starting 1 filereader instances
 
 =====[ partition info(nvme0n2). #0, RW]=====
 [SB: 1] [CP: 2] [SIT: 2] [NAT: 36] [SSA: 24] [MAIN: 8112(OverProv:1106 Resv:633)]
 
-Utilization: 18% (668263 valid blocks)
-  - Node: 21283 (Inode: 21283, Other: 0)
-  - Data: 646980
+Utilization: 18% (667895 valid blocks)
+  - Node: 25430 (Inode: 25430, Other: 0)
+  - Data: 642465
   - Inline_xattr Inode: 0
-  - Inline_data Inode: 119
-  - Inline_dentry Inode: 1342
+  - Inline_data Inode: 120
+  - Inline_dentry Inode: 5489
   - Orphan Inode: 0
 
 Main area: 8112 segs, 507 secs 507 zones
@@ -50,14 +50,14 @@ Extent Cache:
 
 Balancing F2FS Async:
   - inmem:    0, wb_cp_data:    0, wb_data:    0
-  - nodes: 21282 in 21283
-  - dents:    1 in dirs:   1 (21283)
-  - datas: 647098 in files:   0
-  - meta:    0 in  204
-  - imeta: 21283
-  - NATs:     21282/    21283
+  - nodes: 25429 in 25430
+  - dents:    1 in dirs:   1 (25430)
+  - datas: 642584 in files:   0
+  - meta:    0 in  212
+  - imeta: 25430
+  - NATs:     25429/    25430
   - SITs:         0/     8112
-  - free_nids:       554, alloc_nids:         0
+  - free_nids:        47, alloc_nids:         0
 
 Distribution of User Blocks: [ valid | invalid | free ]
   [|-|-------------------------------------------------]
@@ -68,13 +68,13 @@ LFS: 0 blocks in 0 segments
 
 BDF: 99, avg. vblocks: 0
 
-Memory: 90744 KB
+Memory: 107644 KB
   - static: 1884 KB
-  - cached: 2911 KB
-  - paged : 85948 KB
+  - cached: 3191 KB
+  - paged : 102568 KB
 Main blkaddr: 40960
 Current benefit sections: 0
-Checkpoint try count :21282
+Checkpoint try count :25429
   - CP   Calls : 0
   - ToTAL W: 0
   - Dent Writes: 0
@@ -83,9 +83,6 @@ Checkpoint try count :21282
   - SIT  Writes: 0
   - CP   Writes: 0
 
-Background GC: OFF
-Section SSR  :  ON
-IOTL         :  ON
 
 Hot data section LFS allocation: 0
 Hot data section SSR allocation: 0
@@ -128,26 +125,12 @@ IM_all_cached_pages: 0
 IM - data: 0 - 0
 DEV R/W: 0 
 DEV CPBK: 0
+
 GC time breakdown
 DATA - 0 (tick)
-phase0: 0 (tick)
-phase1: 0 (tick)
-phase2: 0 (tick)
-phase3: 0 (tick)
-phase4: 0 (tick)
-1.499: Running...
-61.503: Run took 60 seconds...
-61.504: Per-Operation Breakdown
-statfile1            1176849ops    19613ops/s   0.0mb/s    0.001ms/op [0.000ms - 0.796ms]	[ 295397 0 0 0 0 0 0 0 0 0 872127 6348 1398 291 934 180 69 73 26 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-deletefile1          1176848ops    19613ops/s   0.0mb/s    0.438ms/op [0.004ms - 20.802ms]	[ 0 0 0 0 0 0 0 0 0 0 0 0 3 455 1105 5404 10673 33587 158454 617244 343017 6790 56 54 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-closefile3           1176859ops    19613ops/s   0.0mb/s    0.000ms/op [0.000ms - 1.731ms]	[ 919386 0 0 0 0 0 0 0 0 0 257132 48 158 24 66 14 23 2 5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-readfile1            1176859ops    19613ops/s 2599.9mb/s    0.019ms/op [0.001ms - 15.173ms]	[ 419 0 0 0 0 0 0 0 0 0 9293 24309 78496 189999 347703 360645 151662 13851 429 47 1 2 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-openfile2            1176860ops    19613ops/s   0.0mb/s    0.002ms/op [0.001ms - 27.512ms]	[ 5507 0 0 0 0 0 0 0 0 0 767246 391976 7489 2366 1308 300 320 229 81 18 4 6 5 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-closefile2           1176860ops    19613ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.258ms]	[ 926214 0 0 0 0 0 0 0 0 0 250398 49 97 25 45 8 16 6 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-appendfilerand1      1176860ops    19613ops/s 153.2mb/s    0.005ms/op [0.001ms - 8.011ms]	[ 86 0 0 0 0 0 0 0 0 0 69635 204918 643278 251030 2632 1371 309 114 258 2002 1214 11 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-openfile1            1176860ops    19613ops/s   0.0mb/s    0.002ms/op [0.001ms - 16.071ms]	[ 239 0 0 0 0 0 0 0 0 0 534848 616954 18813 3418 1546 335 352 233 91 19 4 4 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-closefile1           1176860ops    19613ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.325ms]	[ 792803 0 0 0 0 0 0 0 0 0 383494 166 222 34 80 20 25 8 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-wrtfile1             1176860ops    19613ops/s 2443.7mb/s    0.028ms/op [0.001ms - 3.674ms]	[ 0 0 0 0 0 0 0 0 0 0 1908 8933 43122 128077 253788 374470 289534 73365 3449 196 11 3 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-createfile1          1176860ops    19613ops/s   0.0mb/s    2.048ms/op [0.003ms - 46.768ms]	[ 0 0 0 0 0 0 0 0 0 0 0 0 748 1066 140 1773 2256 9562 36268 130069 210285 330637 329862 117806 6381 5 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
-61.504: IO Summary: 12945435 ops 215744.971 ops/s 19613/39226 rd/wr 5196.8mb/s 0.231ms/op
-61.504: Shutting down processes
+init phase: 0 (tick)
+IZC phase: 0 (tick)
+checkpoint: 0 (tick)
+1.857: Running...
+276.874: Run took 275 seconds...
+276.874: Shutting down processes

@@ -30,7 +30,7 @@ set $filesize=cvar(type=cvar-gamma,parameters=mean:131072;gamma:1.5)
 set $nthreads=50
 set $iosize=1m
 set $meanappendsize=16k
-set $runtime=300
+set $runtime=60
 
 enable lathist
 

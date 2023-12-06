@@ -1,1 +1,1 @@
-sudo umount /dev/nvme0n2p1
+sudo umount /dev/nvme0n2

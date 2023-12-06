@@ -2,26 +2,26 @@
 =====[ partition info(nvme0n2). #0, RW]=====
 [SB: 1] [CP: 2] [SIT: 2] [NAT: 36] [SSA: 24] [MAIN: 8112(OverProv:1106 Resv:633)]
 
-Utilization: 20% (717568 valid blocks)
-  - Node: 21325 (Inode: 21325, Other: 0)
-  - Data: 696243
+Utilization: 20% (718333 valid blocks)
+  - Node: 25443 (Inode: 25443, Other: 0)
+  - Data: 692890
   - Inline_xattr Inode: 0
-  - Inline_data Inode: 77
-  - Inline_dentry Inode: 1342
-  - Orphan Inode: 1
+  - Inline_data Inode: 47
+  - Inline_dentry Inode: 5489
+  - Orphan Inode: 8
 
 Main area: 8112 segs, 507 secs 507 zones
   - COLD  data: 0, 0, 0
-  - WARM  data: 54, 3, 3
+  - WARM  data: 297, 18, 18
   - HOT   data: 8048, 503, 503
-  - Dir   dnode: 8100, 506, 506
+  - Dir   dnode: 8111, 506, 506
   - File   dnode: 8080, 505, 505
   - Indir nodes: 8064, 504, 504
 
-  - Valid: 7
-  - Dirty: 7
-  - Prefree: 34
-  - Free: 8064 (499)
+  - Valid: 14
+  - Dirty: 9
+  - Prefree: 279
+  - Free: 7810 (484)
 
 CP calls: 0 (BG: 0)
 GC calls: 0 (BG: 0)
@@ -32,37 +32,37 @@ Try to move 0 blocks (BG: 0)
   - node blocks : 0 (0)
 
 Extent Cache:
-  - Hit Count: L1-1:3700 L1-2:31 L2:0
-  - Hit Ratio: 0% (3731 / 3395004)
-  - Inner Struct Count: tree: 19982(0), node: 100
+  - Hit Count: L1-1:13316 L1-2:262 L2:0
+  - Hit Ratio: 0% (13578 / 11975208)
+  - Inner Struct Count: tree: 19953(0), node: 153
 
 Balancing F2FS Async:
   - inmem:    0, wb_cp_data:    0, wb_data:    0
-  - nodes: 21284 in 21330
-  - dents:    1 in dirs:   1 (21244)
-  - datas: 695881 in files:   0
-  - meta:   42 in 2838
-  - imeta: 19980
-  - NATs:   1198182/  1198182
-  - SITs:        44/     8112
-  - free_nids:      3015, alloc_nids:         0
+  - nodes: 25275 in 25443
+  - dents:    1 in dirs:   1 (19856)
+  - datas: 689160 in files:   0
+  - meta:  296 in 9668
+  - imeta: 19856
+  - NATs:   4193277/  4193277
+  - SITs:       298/     8112
+  - free_nids:         0, alloc_nids:         0
 
 Distribution of User Blocks: [ valid | invalid | free ]
-  [|-|-------------------------------------------------]
+  [|---|-----------------------------------------------]
 
 IPU: 0 blocks
 SSR: 0 blocks in 0 segments
-LFS: 21695 blocks in 42 segments
+LFS: 151999 blocks in 296 segments
 
-BDF: 99, avg. vblocks: 350
+BDF: 99, avg. vblocks: 1495
 
-Memory: 184286 KB
+Memory: 438581 KB
   - static: 1884 KB
-  - cached: 85729 KB
-  - paged : 96672 KB
+  - cached: 296252 KB
+  - paged : 140444 KB
 Main blkaddr: 40960
-Current benefit sections: 2
-Checkpoint try count :2391887
+Current benefit sections: 17
+Checkpoint try count :8496919
   - CP   Calls : 0
   - ToTAL W: 0
   - Dent Writes: 0
@@ -71,13 +71,10 @@ Checkpoint try count :2391887
   - SIT  Writes: 0
   - CP   Writes: 0
 
-Background GC: OFF
-Section SSR  :  ON
-IOTL         :  ON
 
 Hot data section LFS allocation: 0
 Hot data section SSR allocation: 0
-Warm data section LFS allocation: 2
+Warm data section LFS allocation: 17
 Warm data section SSR allocation: 0
 Cold data section LFS allocation: 0
 Cold data section SSR allocation: 0
@@ -87,26 +84,26 @@ Warm node section LFS allocation: 0
 Warm node section SSR allocation: 0
 Cold node section LFS allocation: 0
 Cold node section SSR allocation: 0
-Total LFS allocation: 2
+Total LFS allocation: 17
 Total SSR allocation: 0
 
 Hot data LFS block write: 0
 Hot data SSR block write: 0
-Warm data LFS block write: 19647
+Warm data LFS block write: 144319
 Warm data SSR block write: 0
 Cold data LFS block write: 0
 Cold data SSR block write: 0
-Hot node LFS block write: 2048
+Hot node LFS block write: 7680
 Hot node SSR block write: 0
 Warm node LFS block write: 0
 Warm node SSR block write: 0
 Cold node LFS block write: 0
 Cold node SSR block write: 0
-Total LFS block write: 21695
+Total LFS block write: 151999
 Total SSR block write: 0
 
-Data write count: 19647
-Node write count: 2048
+Data write count: 144319
+Node write count: 7680
 Meta write count: 0
 
 Host I/O: 0
@@ -116,10 +113,9 @@ IM_all_cached_pages: 0
 IM - data: 0 - 0
 DEV R/W: 0 
 DEV CPBK: 0
+
 GC time breakdown
 DATA - 0 (tick)
-phase0: 0 (tick)
-phase1: 0 (tick)
-phase2: 0 (tick)
-phase3: 0 (tick)
-phase4: 0 (tick)
+init phase: 0 (tick)
+IZC phase: 0 (tick)
+checkpoint: 0 (tick)
