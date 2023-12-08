@@ -25,9 +25,9 @@
 
 set $dir=/mnt
 set $nfiles=100000
-set $meandirwidth=5
+set $meandirwidth=20
 set $filesize=cvar(type=cvar-gamma,parameters=mean:131072;gamma:1.5)
-set $nthreads=30
+set $nthreads=50
 set $iosize=1m
 set $meanappendsize=16k
 set $runtime=300
